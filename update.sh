@@ -151,6 +151,7 @@ wget -O menu-socks "https://raw.githubusercontent.com/andresakti7/hayomauapa/mai
 wget -O menu "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/menu.sh"
 wget -O cek-bandwidth "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/cek-bandwidth.sh"
 
+chmod +x menu
 chmod +x menu-ssh
 chmod +x menu-vmess
 chmod +x menu-vless
