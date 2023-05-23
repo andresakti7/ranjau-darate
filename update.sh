@@ -151,7 +151,6 @@ chmod +x menu-ss
 chmod +x menu-socks
 chmod +x menu-bckp
 chmod +x cek-bandwidth
-sl-download-info
 #install-sldns
 #install-ss-plugin
 #xray-grpc
