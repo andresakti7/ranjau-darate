@@ -134,14 +134,6 @@ rm -rf cek-bandwidth
 # download menu
 cd /usr/bin
 rm -rf menu
-rm -rf menu-ssh
-rm -rf menu-vmess
-rm -rf menu-vless
-rm -rf menu-trojan
-rm -rf menu-ss
-rm -rf menu-socks
-rm -rf menu-bckp
-rm -rf cek-bandwidth
 wget -O menu-ssh "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/menu-ssh.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/menu-vless.sh"
@@ -151,7 +143,6 @@ wget -O menu-socks "https://raw.githubusercontent.com/andresakti7/hayomauapa/mai
 wget -O menu "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/menu.sh"
 wget -O cek-bandwidth "https://raw.githubusercontent.com/andresakti7/hayomauapa/main/cek-bandwidth.sh"
 
-chmod +x menu
 chmod +x menu-ssh
 chmod +x menu-vmess
 chmod +x menu-vless
